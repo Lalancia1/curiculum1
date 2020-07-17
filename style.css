@@ -1,0 +1,333 @@
+body{
+    text-align: center;
+
+}
+
+.container
+{
+    width: 100%;
+    height: auto;
+
+}
+.space
+{
+    height: 10px;
+}
+.adress
+{
+    background-color:  lawngreen;
+    width: auto;
+
+}
+
+.adress:hover
+{
+    background-color: greenyellow ;
+}
+
+.text
+{
+    background-color: lightgray;
+    width: 70%;
+    height:60px;
+}
+.text:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+.irem1 {
+
+    height: 30px;
+    width: 30px;
+    background-color:lawngreen;
+    margin-top: 16px;
+}
+.irem1:hover
+{
+    margin-top:25px ;
+    background-color:greenyellow;
+}
+.irem2
+{
+    width: 0;
+    height: 0;
+    margin-top: 2px;
+
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 120px solid lawngreen;
+
+}
+.irem2:hover
+{
+    margin-top:4px ;
+    background-color:yellowgreen;
+}
+.irem3 {
+
+    height: 30px;
+    width: 30px;
+    background-color:lawngreen;
+    margin-top: 20px;
+}
+.irem3:hover
+{
+    margin-top:25px ;
+    background-color:greenyellow;
+}
+.irem4
+{
+    width: 0;
+    height: 0;
+   margin-top: 4px;
+
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 120px solid lawngreen;
+
+}
+.irem4:hover
+{
+    margin-top:6px ;
+    background-color:yellowgreen;
+}
+
+.irem5 {
+
+    height: 30px;
+    width: 30px;
+    background-color:lawngreen;
+     margin-top:20px;
+}
+
+.irem5:hover
+{
+    margin-top:25px ;
+    background-color:greenyellow;
+}
+.irem6
+{
+    width: 0;
+    height: 0;
+       margin-top: 4px;
+
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 120px solid lawngreen;
+
+}
+.irem6:hover
+{
+    margin-top:6px ;
+    background-color:yellowgreen;
+}
+.irem7 {
+
+    height: 30px;
+    width: 30px;
+    background-color:lawngreen;
+     margin-top: 20px;
+}
+.irem7:hover
+{
+    margin-top:25px ;
+    background-color:greenyellow;
+}
+.irem8
+{
+    width: 0;
+    height: 0;
+       margin-top: 4px;
+
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 120px solid lawngreen;
+
+}
+.irem8:hover
+{
+    margin-top:6px ;
+    background-color:yellowgreen;
+}
+
+.irem9 {
+
+    height: 30px;
+    width: 30px;
+    background-color:lawngreen;
+     margin-top: 18px;
+}
+.irem9:hover
+{
+    margin-top:23px ;
+    background-color:greenyellow;
+}
+.irem10
+{
+    width: 0;
+    height: 0;
+       margin-top: 2px;
+
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 120px solid lawngreen;
+
+}
+.irem10:hover
+{
+    margin-top:4px ;
+    background-color:yellowgreen;
+}
+.irem11 {
+
+    height: 30px;
+    width: 30px;
+    background-color:lawngreen;
+     margin-top:20px;
+}
+
+.irem11:hover
+{
+    margin-top:23px ;
+    background-color:greenyellow;
+}
+.irem12
+{
+    width: 0;
+    height: 0;
+      margin-top: 2px;
+
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 120px solid lawngreen;
+
+}
+
+.irem12:hover
+{
+    margin-top:4px ;
+    background-color:yellowgreen;
+}
+#titre1
+{
+    background-color: lawngreen;
+    width: auto;
+    height: 60px;
+
+}
+
+.titre1:hover
+{
+    width: 100%;
+    background-color: greenyellow;
+    color:saddlebrown;
+}
+
+#titre2
+{
+    background-color: lawngreen;
+    width: auto;
+    height: 60px;
+
+}
+
+.titre2:hover
+{
+    width: 100%;
+    background-color: greenyellow;
+    color:saddlebrown;
+}
+
+#titre3
+{
+    background-color: lawngreen;
+    width: auto;
+    height: 60px;
+
+}
+
+.titre3:hover
+{
+    width: 100%;
+    background-color: greenyellow;
+    color:saddlebrown;
+}
+/********************************************************************************************/
+#container{
+
+    position: relative;
+    display: flex;
+    perspective: 400px;
+    margin-left:100px;
+    margin-top: -300px;
+
+    width: 200px;
+    height: 200px;
+
+}
+
+#cube{
+    width: 200px;
+
+}
+
+#cube div{
+
+    position: absolute;
+    width:200px;
+    height:200px;
+    border: 3px solid black;
+    opacity: 0.5;
+    font: 30px impact;
+    color: black;
+}
+#front{
+    background: yellow;
+    transform: translateZ(100px);
+}
+#back{
+    background: gray;
+    transform:rotateY(90deg) translateZ(100px);
+}
+#left{
+    background: red;
+    transform:rotateY(-90deg) translateZ(100px);
+}
+#right{
+    background: blue;
+    transform:rotateY(-90deg) translateZ(100px);
+}
+
+#up{
+    background: pink;
+    -webkit-transform:rotateX(90deg) translateZ(100px);
+}
+
+#bottom{
+    background: green;
+    transform:rotateX(-90deg) translateZ(100px);
+
+}
+
+
+#cube{
+    transform-style:preserve-3d;
+    animation-name: rotateCube;
+    animation-direction: alternate-reverse;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+@keyframes rotateCube{
+    0%{
+        transform:translateX(100px)
+        rotateX(0deg) rotateY(0deg);}
+    40%{ transform: translateX(150px)rotateX(0deg)
+    rotateY(0deg); }
+
+    100%{transform:translateX(150px)
+    rotateX(360deg)rotateY(360deg);}
+}
